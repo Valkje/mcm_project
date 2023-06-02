@@ -14616,12 +14616,27 @@ julia
 </li>
 <li><p>Inside Julia, change to the Pkg mode by typing <code>]</code>. In there, you want to activate the project toml file and instantiate the project. This will install all necessary packages and precompile them.</p>
 <div class="highlight"><pre><span></span><span class="p">]</span>
-<span class="n">activate</span><span class="w"> </span><span class="n">Project</span>
+<span class="n">activate</span><span class="w"> </span><span class="n">mcm_project</span>
 <span class="n">instantiate</span>
 </pre></div>
 </li>
 </ol>
+<h2 id="Running-the-code">Running the code<a class="anchor-link" href="#Running-the-code">&#182;</a></h2><p>If you have Visual Studio Code installed, you could open the <code>project.ipynb</code> file, select Julia as your notebook kernel, and then hopefully be able to run everything cell by cell. Slightly simpler would be to run the more barebones <code>project.jl</code>, which contains some additional code to create an <code>images</code> directory and save the generated images as png files. To use the last option, run:</p>
+<div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>mcm_project
+julia<span class="w"> </span>--project<span class="o">=</span>.<span class="w"> </span>project.jl
+</pre></div>
 
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Dependencies">Dependencies<a class="anchor-link" href="#Dependencies">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -14662,7 +14677,7 @@ julia
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Exercise-(a)">Exercise (a)<a class="anchor-link" href="#Exercise-(a)">&#182;</a></h1>
+<h2 id="Exercise-(a)">Exercise (a)<a class="anchor-link" href="#Exercise-(a)">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -14735,7 +14750,7 @@ julia
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Exercise-(b)">Exercise (b)<a class="anchor-link" href="#Exercise-(b)">&#182;</a></h1>
+<h2 id="Exercise-(b)">Exercise (b)<a class="anchor-link" href="#Exercise-(b)">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -14971,7 +14986,7 @@ julia
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Exercise-(c)">Exercise (c)<a class="anchor-link" href="#Exercise-(c)">&#182;</a></h1>
+<h2 id="Exercise-(c)">Exercise (c)<a class="anchor-link" href="#Exercise-(c)">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -15005,7 +15020,7 @@ julia
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Exercise-(d)">Exercise (d)<a class="anchor-link" href="#Exercise-(d)">&#182;</a></h1>
+<h2 id="Exercise-(d)">Exercise (d)<a class="anchor-link" href="#Exercise-(d)">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -15033,7 +15048,7 @@ julia
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Exercise-(e)">Exercise (e)<a class="anchor-link" href="#Exercise-(e)">&#182;</a></h1>
+<h2 id="Exercise-(e)">Exercise (e)<a class="anchor-link" href="#Exercise-(e)">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -15061,7 +15076,7 @@ julia
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Exercise-(f)">Exercise (f)<a class="anchor-link" href="#Exercise-(f)">&#182;</a></h1>
+<h2 id="Exercise-(f)">Exercise (f)<a class="anchor-link" href="#Exercise-(f)">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -15542,7 +15557,7 @@ julia
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Exercise-(g)">Exercise (g)<a class="anchor-link" href="#Exercise-(g)">&#182;</a></h1>
+<h2 id="Exercise-(g)">Exercise (g)<a class="anchor-link" href="#Exercise-(g)">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -16328,7 +16343,7 @@ julia
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Exercise-(h)">Exercise (h)<a class="anchor-link" href="#Exercise-(h)">&#182;</a></h1>
+<h2 id="Exercise-(h)">Exercise (h)<a class="anchor-link" href="#Exercise-(h)">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -16421,7 +16436,7 @@ julia
     \frac{1}{\sigma_d}q_d
     \end{pmatrix}
 \right] \\
-&amp;= \frac{\partial}{\partial q_i} \left[ \frac{1}{2} \left( \frac{1}{\sigma_1} q^2_1 + \dots + q^2_d \right) \right] \\
+&amp;= \frac{\partial}{\partial q_i} \left[ \frac{1}{2} \left( \frac{1}{\sigma_1} q^2_1 + \dots + \frac{1}{\sigma_d} q^2_d \right) \right] \\
 &amp;= \frac{1}{\sigma_i}q_i.
 \end{align*}
 </div>
