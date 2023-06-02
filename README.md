@@ -42,6 +42,8 @@ activate mcm_project
 instantiate
 ```
 
+You can exit the Julia prompt by typing Ctrl+D.
+
 ## Running the code
 
 If you have Visual Studio Code installed, you could open the `project.ipynb` file, select Julia as your notebook kernel, and then hopefully be able to run everything cell by cell. Slightly simpler would be to run the more barebones `project.jl`, which contains some additional code to create an `images` directory and save the generated images as png files. To use the last option, run:
