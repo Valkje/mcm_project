@@ -5,7 +5,6 @@ This repo contains:
 * Two report files, an HTML and a PDF version. Personally I think the HTML version is the prettiest, but you can use either to get a coherent overview of the code and the results it produces.
 * A `project.jl` file, which just contains the code and is easiest to run.
 * Some toml files that will help you install the necessary Julia packages (further explained below).
-* An empty `images` directory. Will be filled by running `project.jl`.
 
 ## Getting started
 
